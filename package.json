@@ -1,0 +1,22 @@
+{
+  "name": "intro-en",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "file:algorandfoundation-algokit-utils-0.1.0.tgz",
+    "algosdk": "^2.7.0",
+    "tsx": "^4.7.1"
+  }
+}
