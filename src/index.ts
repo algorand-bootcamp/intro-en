@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import * as algokit from '@algorandfoundation/algokit-utils';
 
 async function main() {
