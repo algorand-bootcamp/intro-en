@@ -1,9 +1,8 @@
 /* eslint-disable no-console */
 import * as algokit from '@algorandfoundation/algokit-utils';
-import AlgorandClient from '@algorandfoundation/algokit-utils/types/algorand-client'
 
 async function main() {
-    const algorand = AlgorandClient.defaultLocalNet();
+    const algorand = algokit.AlgorandClient.defaultLocalNet();
 
     // ===== Create two accounts =====
     const alice = algorand.account.random()
